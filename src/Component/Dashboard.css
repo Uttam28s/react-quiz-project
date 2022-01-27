@@ -1,0 +1,130 @@
+.dashboard-wrapper {
+  background-color: #bcd1e4ba;
+  height: 100vh;
+}
+
+.card-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quiz-card-wrapper {
+  width: 30ch;
+  box-shadow: -1px 3px 20px -10px #000000c4;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #fcffce80;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quiz-card-wrapper p {
+  /* font-size: 18px; */
+  margin: 1%;
+}
+.quiz-card-wrapper span {
+  font-size: 15px;
+  /* margin: 1%; */
+}
+
+.card-score-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid transparent;
+  padding: 6px 12px;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: #000000;
+  border-color: #000000;
+}
+
+button:hover {
+  background-color: #00000059;
+  color: white !important;
+  border-color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-list-wrapper {
+    display: grid;
+    justify-items: center;
+  }
+  .quiz-card-wrapper {
+    width: 100%;
+    margin: 4%;
+    padding: 4%;
+  }
+  .question-box {
+    margin: 0 !important;
+    padding: 0 4% !important;
+    width: 91% !important;
+    height: 100vh;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border {
+  border: solid 2px;
+}
+
+body {
+  font-family: cursive;
+  font-size: large;
+  font-weight: 600;
+  background-color: #ceddeb;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.question-box {
+  width: 75%;
+  margin: 0 auto;
+  padding: 2%;
+  margin-top: 4.5%;
+  background-color: #deeada;
+  padding-top: 1%;
+  box-shadow: -1px 3px 20px -10px #000000c4;
+  border-radius: 15px;
+}
+.button-wrraper {
+  display: flex;
+  flex-direction: row;
+  /* width: 50%; */
+  margin: 0 auto;
+  justify-content: center;
+  padding: 3%;
+  gap: 10%;
+}
+
+.button-wrraper button {
+  padding: 1%;
+
+  width: 23%;
+
+  font-family: cursive;
+  font-size: large;
+  font-weight: 600;
+}

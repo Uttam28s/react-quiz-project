@@ -1,0 +1,27 @@
+.option-box {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.option {
+  display: flex;
+  align-items: center;
+  grid-gap: 3%;
+  gap: 3%;
+  width: 100%;
+  border: solid 2px;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 0.25rem;
+}
+.w-100 {
+  width: 100%;
+}
+.radio {
+  width: 20px;
+  height: 24px;
+}
